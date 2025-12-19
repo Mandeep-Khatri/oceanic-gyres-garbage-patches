@@ -30,3 +30,16 @@ This project analyzes ocean drifter NetCDF data to identify oceanic gyres and po
 NetCDF drifter files are not included due to size.
 Download drifter data and place `.nc` files in the working directory.
 
+
+oceanic-gyres-garbage-patches/
+├── README.md
+├── matlab/
+│   ├── make_lat_lon_matrices.m
+│   ├── analyze_single_gyre.m
+│   └── save_all_drifter_plots_safe.m
+├── figures/
+│   ├── example_drifter_path.png
+│   └── example_speed_profile.png
+└── data/
+    └── README.md
+
